@@ -1,11 +1,8 @@
 # open-cv-learn
-I should learn OpenCV. 
+This is a collection of OpenCV scripts I maintained. 
 
-## PyImageSearch
+## cropping
 
-## Course
-
-## A book
 
 
 
