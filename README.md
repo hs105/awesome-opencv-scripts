@@ -1,11 +1,5 @@
 This is a collection of OpenCV scripts. Hope you will find them useful to your projects!  
 
-## Cropping by selecting a rectangle area in an opened image. 
-See "cropping.py". 
-
-
-
-
 ## Template Matching
 
 So we have an image like this
@@ -41,4 +35,7 @@ The script finds the most matching and draws on the image:
 
 See "detect_best_matching_template.py" 
 
+## Cropping. 
+Say you want to implement a cropping function in an image editor. User draws a rectangle on an image. The script crops it and save the crop in another image. 
 
+See "cropping.py". 
