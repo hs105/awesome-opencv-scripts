@@ -7,7 +7,7 @@ import cv2
 # whether cropping is being performed or not
 refPt = []
 cropping = False
-image = cv2.imread("monster_changes_direction.png")
+image = cv2.imread("monster_turn_left.png")
 
 def click_and_crop(event, x, y, flags, param):
     # grab references to the global variables
@@ -49,7 +49,7 @@ if len(refPt) == 2:
     print("x coordinates: %d, %d" % (refPt[0][0], refPt[1][0]))
     roi = clone[refPt[0][1]:refPt[1][1], refPt[0][0]:refPt[1][0]]
     cv2.imshow("ROI", roi)
-    cv2.imwrite("monster_turn_around.png", roi)
+    cv2.imwrite("monster_left.png", roi)
     #cv2.imwrite("player.png", roi)
     cv2.waitKey(0)
 
