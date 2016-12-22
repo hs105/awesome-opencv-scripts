@@ -1,5 +1,4 @@
-# open-cv-learn
-This is a collection of OpenCV scripts I maintained. 
+This is a collection of OpenCV scripts. Hope you will find them useful to your projects.  
 
 ## cropping by selecting a rectangle area in an opened image. 
 See cropping.py. 
