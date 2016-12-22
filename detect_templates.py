@@ -27,6 +27,7 @@ top_left_player, bottom_right_player, res2 = find_template(player)
 # plt.subplot(132),plt.imshow(res2,cmap = 'gray')
 # plt.title('Matching Result for Player'), plt.xticks([]), plt.yticks([])
 cv2.rectangle(image_copy, top_left_player, bottom_right_player, 255, 2)
+cv2.imwrite("screenshots/detection_of_monster_player.png", image_copy)
 
 # plt.subplot(133),\
 plt.imshow(image_copy, cmap ='gray')

@@ -35,8 +35,10 @@ print("the biggest ,matching score is %f ", biggest_match[3])
 
 img_copy = img.copy()
 cv2.rectangle(img_copy, biggest_match[0], biggest_match[1], 255, 0)
+cv2.imwrite("screenshots/detection_of_monster_from_best_matching.png", img_copy)
 cv2.imshow("image_copy", img_copy)
 cv2.waitKey(0)
+
 
 
 
