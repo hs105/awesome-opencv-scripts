@@ -19,7 +19,7 @@ The matching result is
 * "detect_best_matching_template.py" is an extension of "detect_templates.py". It shows how to select the best matching template from a few templates given an image. 
 The templates we are using are monster facing front, left and right:
 
-![Alt text](images/monster_front.png)
+![Alt text](images/monster.png)
 
 ![Alt text](images/monster_left.png)
 
