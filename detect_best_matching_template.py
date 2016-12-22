@@ -5,11 +5,10 @@ import cv2
 Given an image, how to select the most matching template from a few template images.
 """
 
-img = cv2.imread("img.png")
-
-monster_front = cv2.imread("monster.png")
-monster_left = cv2.imread("monster_left.png")
-monster_right = cv2.imread("monster_right.png")
+img = cv2.imread("images/img.png")
+monster_front = cv2.imread("images/monster.png")
+monster_left = cv2.imread("images/monster_left.png")
+monster_right = cv2.imread("images/monster_right.png")
 templates = [monster_front, monster_left, monster_right]
 
 

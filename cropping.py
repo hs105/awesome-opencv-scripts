@@ -9,7 +9,7 @@ This script shows how to crop an image from a mouse selected rectangle area.
 # whether cropping is being performed or not
 refPt = []
 cropping = False
-image = cv2.imread("monster_turn_left.png")
+image = cv2.imread("images/monster_turn_left.png")
 
 def click_and_crop(event, x, y, flags, param):
     # grab references to the global variables

@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 import cv2
 
 #only read in one color channel 
-image = cv2.imread("img.png", 0)
-monster = cv2.imread("monster.png", 0)
-player = cv2.imread("player.png", 0)
+image = cv2.imread("images/img.png", 0)
+monster = cv2.imread("images/monster.png", 0)
+player = cv2.imread("images/player.png", 0)
 
 
 def find_template(template):
