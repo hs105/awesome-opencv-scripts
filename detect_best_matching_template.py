@@ -1,6 +1,9 @@
 import operator
-import matplotlib.pyplot as plt
 import cv2
+
+""" This script shows:
+Given an image, how to select the most matching template from a few template images.
+"""
 
 img = cv2.imread("img.png")
 
