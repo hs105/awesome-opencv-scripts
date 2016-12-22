@@ -26,7 +26,7 @@ See "detect_templates.py".
 
 ## Best Template Matching
 
-The monster can move and turn left and turn right. We want to keep track of its positions. 
+The monster can move and turn left and turn right. We want to keep track of its position and direction. 
 We can use templates of this monster facing front, left and right:
 
 ![Alt text](images/monster.png)
