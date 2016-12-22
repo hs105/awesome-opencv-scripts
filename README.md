@@ -1,10 +1,12 @@
-This is a collection of OpenCV scripts. Hope you will find them useful to your projects.  
+This is a collection of OpenCV scripts. Hope you will find them useful to your projects!  
 
 ## Cropping by selecting a rectangle area in an opened image. 
-See cropping.py. 
+See "cropping.py". 
 
 ## Template Matching
-See detect_templates.py and detect_best_matching_template.py
+* "detect_templates.py" shows how to match a template given an image and draws a rectangle area around it. 
+
+* "detect_best_matching_template.py" is an extension of "detect_templates.py". It shows how to select the best matching template from a few templates given an image. 
 
 
 
