@@ -12,13 +12,13 @@ So we have an image like this
 
 ![Alt text](images/img.png)
 
-We'd like to find the player and monster in this image:
-
-![Alt text](images/player.png)
+We'd like to find the monster and the player:
 
 ![Alt text](images/monster.png)
 
-The script finds the two objects and draws them on the image in rectangles:
+![Alt text](images/player.png)
+
+in this image. The script finds the two objects and draws them on the image in rectangles:
 
 ![Alt text](screenshots/detection_of_monster_player.png)
 
