@@ -4,7 +4,7 @@ This is a collection of OpenCV scripts. Hope you will find them useful to your p
 See "cropping.py". 
 
 ## Template Matching
-See detect_templates.py and detect_best_matching_template.py
+See "detect_templates.py" and "detect_best_matching_template.py". 
 
 
 
