@@ -1,7 +1,9 @@
 import argparse
 import cv2
 
-"""this script shows how to capture an image from a mouse selected rectangle area. """
+"""
+This script shows how to crop an image from a mouse selected rectangle area.
+"""
 
 # initialize the list of reference points and boolean indicating
 # whether cropping is being performed or not
